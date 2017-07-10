@@ -1,6 +1,7 @@
-const preactCliPostCSS = (config) => {
-  if(!config) { return throw Error('You need to pass the helpers')}
-    const options = config.getPluginsByName(config, 'LoaderOptionsPlugin')
+const preactCliPostCSS = (config, helpers) => {
+    if(!config) { throw Error('You need to pass the config')}
+    if(!helpers) { throw Error('You need to pass the helpers')}
+    const options = helpers.getPluginsByName(config, 'LoaderOptionsPlugin')
         .find(({ plugin }) => plugin.options.options.postcss)
         .plugin.options.options
 
