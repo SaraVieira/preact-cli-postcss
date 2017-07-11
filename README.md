@@ -22,7 +22,7 @@ And include in your project by creating a `preact.config.js`
 const preactCliPostCSS = require('preact-cli-postcss');
 
 export default function (config, env, helpers) {
-	preactCliPostCSS(helpers);
+	preactCliPostCSS(config, helpers);
 }
 ```
 
