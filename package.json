@@ -1,7 +1,7 @@
 {
   "name": "preact-cli-postcss",
   "description": "Removes default postcss config and instead will use postcss.config.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/index.js",
   "author": "https://github.com/SaraVieira",
   "repository": {
