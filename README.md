@@ -2,9 +2,7 @@
 
 Removes default postcss config and instead will use postcss.config.js
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/preact-cli-postcss'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/preact-cli-postcss.svg' />
-</a>
+
 
 ## Getting Started
 
